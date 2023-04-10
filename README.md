@@ -9,6 +9,12 @@ CondaExitZero: Package caches prepared. UnlinkLinkTransaction cancelled with --d
 - Windows 10, Python 3.10
 - Anaconda 3 2022.10
 
+# Clone repo
+```
+git clone https://github.com/b0br0ff/anaconda_package_downloader.git
+cd anaconda_package_downloader
+```
+
 # General steps
 - Perform dry run and get list of packages for download (output as JSON);
 - Using JSON file obtained on previous step download packages;
@@ -84,7 +90,7 @@ total 252740
 -rw-r----- 1 anaconda anaconda    452368 Apr 10  2023 s2n-1.0.10-h9b69904_0.tar.bz2
 ```
 
-### Installation
+### Packages installation
 In the given example for the pyspark script produces bash file that contains conda commands for installation: pkgs/3.9.13/pyspark/pyspark-installation.bash
 
 ```
