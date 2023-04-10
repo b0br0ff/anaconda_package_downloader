@@ -36,9 +36,22 @@ conda install --dry-run --channel conda-forge pytorch --json > pytorch_pkgs.json
 ### Download packages
 ```
 # Win
-python.exe get_packages.py 3.9.13 pyspark pyspark_pkgs.json
-# Centos
-python get_packages.py 3.9.13 pyspark pyspark_pkgs.json
+Python310/python.exe get_packages.py 3.9.13 pyspark pyspark_pkgs.json
+Python310/python.exe  get_packages.py "3.9.13" jupyterhub jupyterhub_pkgs.json
+Python310/python.exe  get_packages.py "3.9.13" sparkmagic sparkmagic_pkgs.json
+Python310/python.exe  get_packages.py "3.9.13" jupyterhub-idle-culler jupyterhub-idle-culler_pkgs.json
+Python310/python.exe  get_packages.py "3.9.13" sudospawner sudospawner_pkgs
+Python310/python.exe  get_packages.py "3.9.13" elasticsearch elasticsearch_pkgs.json
+Python310/python.exe  get_packages.py "3.9.13" elasticsearch-dsl elasticsearch-dsl_pkgs.json
+
+# Linux
+python3 get_packages.py 3.9.13 pyspark pyspark_pkgs.json
+python3  get_packages.py "3.9.13" jupyterhub jupyterhub_pkgs.json
+python3  get_packages.py "3.9.13" sparkmagic sparkmagic_pkgs.json
+python3  get_packages.py "3.9.13" jupyterhub-idle-culler jupyterhub-idle-culler_pkgs.json
+python3  get_packages.py "3.9.13" sudospawner sudospawner_pkgs
+python3  get_packages.py "3.9.13" elasticsearch elasticsearch_pkgs.json
+python3  get_packages.py "3.9.13" elasticsearch-dsl elasticsearch-dsl_pkgs.json
 ```
 
 ### Verify downloaded files
