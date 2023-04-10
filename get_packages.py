@@ -74,6 +74,7 @@ def main():
     ANACONDA_PYTHON_VERSION = sys.argv[1]
     PACKAGE_NAME = sys.argv[2]
     DRYRUN_FILE = sys.argv[3]
+    DOWNLOAD_FILE = PACKAGE_NAME +'-install.bash'
 
     subpath1_list = [DOWNLOAD_FOLDER, ANACONDA_PYTHON_VERSION]
     subpath2_list = [DOWNLOAD_FOLDER, ANACONDA_PYTHON_VERSION, PACKAGE_NAME]
