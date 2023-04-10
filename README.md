@@ -47,7 +47,14 @@ ls -al pkgs/3.9.13/pyspark
 ```
 
 ### Installation
-```
+In the given example for the pyspark script produces bash file that contains conda commands for installation: pkgs/3.9.13/pyspark/pyspark-installation.bash
 
+```
+less pkgs/3.9.13/pyspark/pyspark-installation.bash
+
+#https://conda.anaconda.org/conda-forge/linux-64/abseil-cpp-20210324.2-h9c3ff4c_0.tar.bz2
+conda install abseil-cpp-20210324.2-h9c3ff4c_0tar.bz2
+#https://conda.anaconda.org/conda-forge/linux-64/aws-c-common-0.6.2-h7f98852_0.tar.bz2
+conda install aws-c-common-0.6.2-h7f98852_0tar.bz2
 ```
 
