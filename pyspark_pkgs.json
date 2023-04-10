@@ -1,0 +1,306 @@
+{
+  "actions": {
+    "FETCH": [
+      {
+        "arch": null,
+        "build": "pyh44b312d_0",
+        "build_number": 0,
+        "channel": "https://conda.anaconda.org/conda-forge/noarch",
+        "constrains": [],
+        "depends": [
+          "numpy >=1.7",
+          "pandas >=0.23.2",
+          "py4j 0.10.9",
+          "pyarrow >=0.15.1",
+          "python >=3.6"
+        ],
+        "fn": "pyspark-3.1.1-pyh44b312d_0.tar.bz2",
+        "license": "Apache-2.0",
+        "license_family": "APACHE",
+        "md5": "3bd3c01b5b359161b03a85290b9b6ee2",
+        "name": "pyspark",
+        "noarch": "python",
+        "package_type": "noarch_python",
+        "platform": null,
+        "sha256": "999025b5f341c42e39d7edb746aea4086e8fbea36a51f883fb1a046dea175334",
+        "size": 211526103,
+        "subdir": "noarch",
+        "timestamp": 1614850708654,
+        "url": "https://conda.anaconda.org/conda-forge/noarch/pyspark-3.1.1-pyh44b312d_0.tar.bz2",
+        "version": "3.1.1"
+      },
+      {
+        "arch": null,
+        "build": "pyh9f0ad1d_0",
+        "build_number": 0,
+        "channel": "https://conda.anaconda.org/conda-forge/noarch",
+        "constrains": [],
+        "depends": [
+          "python"
+        ],
+        "fn": "py4j-0.10.9-pyh9f0ad1d_0.tar.bz2",
+        "license": "BSD-3-Clause",
+        "license_family": "BSD",
+        "md5": "7958961fee287fdf87fc1f0c3c750f34",
+        "name": "py4j",
+        "noarch": "python",
+        "package_type": "noarch_python",
+        "platform": null,
+        "sha256": "17911340e511d1fcd6ad7af79c0a2560d8dfb701986fcb21eff6727f8a4188a8",
+        "size": 183423,
+        "subdir": "noarch",
+        "timestamp": 1591810596109,
+        "url": "https://conda.anaconda.org/conda-forge/noarch/py4j-0.10.9-pyh9f0ad1d_0.tar.bz2",
+        "version": "0.10.9"
+      }
+    ],
+    "LINK": [
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "h9c3ff4c_0",
+        "channel": "conda-forge",
+        "dist_name": "abseil-cpp-20210324.2-h9c3ff4c_0",
+        "name": "abseil-cpp",
+        "platform": "linux-64",
+        "version": "20210324.2"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "h7f98852_0",
+        "channel": "conda-forge",
+        "dist_name": "aws-c-common-0.6.2-h7f98852_0",
+        "name": "aws-c-common",
+        "platform": "linux-64",
+        "version": "0.6.2"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 1004,
+        "build_string": "he1b5a44_1004",
+        "channel": "conda-forge",
+        "dist_name": "gflags-2.2.2-he1b5a44_1004",
+        "name": "gflags",
+        "platform": "linux-64",
+        "version": "2.2.2"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "h7f98852_0",
+        "channel": "conda-forge",
+        "dist_name": "libutf8proc-2.7.0-h7f98852_0",
+        "name": "libutf8proc",
+        "platform": "linux-64",
+        "version": "2.7.0"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "h9c3ff4c_0",
+        "channel": "conda-forge",
+        "dist_name": "re2-2021.09.01-h9c3ff4c_0",
+        "name": "re2",
+        "platform": "linux-64",
+        "version": "2021.09.01"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "h95a6274_0",
+        "channel": "conda-forge",
+        "dist_name": "aws-c-cal-0.5.11-h95a6274_0",
+        "name": "aws-c-cal",
+        "platform": "linux-64",
+        "version": "0.5.11"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 7,
+        "build_string": "ha31a3da_7",
+        "channel": "conda-forge",
+        "dist_name": "aws-checksums-0.1.11-ha31a3da_7",
+        "name": "aws-checksums",
+        "platform": "linux-64",
+        "version": "0.1.11"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "h48cff8f_0",
+        "channel": "conda-forge",
+        "dist_name": "glog-0.5.0-h48cff8f_0",
+        "name": "glog",
+        "platform": "linux-64",
+        "version": "0.5.0"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 1,
+        "build_string": "h780b84a_1",
+        "channel": "conda-forge",
+        "dist_name": "libprotobuf-3.18.0-h780b84a_1",
+        "name": "libprotobuf",
+        "platform": "linux-64",
+        "version": "3.18.0"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "h9b69904_0",
+        "channel": "conda-forge",
+        "dist_name": "s2n-1.0.10-h9b69904_0",
+        "name": "s2n",
+        "platform": "linux-64",
+        "version": "1.0.10"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "hfb6a706_0",
+        "channel": "conda-forge",
+        "dist_name": "aws-c-io-0.10.5-hfb6a706_0",
+        "name": "aws-c-io",
+        "platform": "linux-64",
+        "version": "0.10.5"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 1,
+        "build_string": "h05f19cf_1",
+        "channel": "conda-forge",
+        "dist_name": "grpc-cpp-1.40.0-h05f19cf_1",
+        "name": "grpc-cpp",
+        "platform": "linux-64",
+        "version": "1.40.0"
+      },
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "hcc01f38_0",
+        "channel": "pkgs/main",
+        "dist_name": "libthrift-0.15.0-hcc01f38_0",
+        "name": "libthrift",
+        "platform": "linux-64",
+        "version": "0.15.0"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "h68e2c4e_0",
+        "channel": "conda-forge",
+        "dist_name": "orc-1.7.0-h68e2c4e_0",
+        "name": "orc",
+        "platform": "linux-64",
+        "version": "1.7.0"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 13,
+        "build_string": "h3541f99_13",
+        "channel": "conda-forge",
+        "dist_name": "aws-c-event-stream-0.2.7-h3541f99_13",
+        "name": "aws-c-event-stream",
+        "platform": "linux-64",
+        "version": "0.2.7"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 3,
+        "build_string": "hb4091e7_3",
+        "channel": "conda-forge",
+        "dist_name": "aws-sdk-cpp-1.8.186-hb4091e7_3",
+        "name": "aws-sdk-cpp",
+        "platform": "linux-64",
+        "version": "1.8.186"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "pyh9f0ad1d_0",
+        "channel": "conda-forge",
+        "dist_name": "py4j-0.10.9-pyh9f0ad1d_0",
+        "name": "py4j",
+        "platform": "noarch",
+        "version": "0.10.9"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 2,
+        "build_string": "2_cp39",
+        "channel": "conda-forge",
+        "dist_name": "python_abi-3.9-2_cp39",
+        "name": "python_abi",
+        "platform": "linux-64",
+        "version": "3.9"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 2,
+        "build_string": "py39hf3d152e_2",
+        "channel": "conda-forge",
+        "dist_name": "conda-22.9.0-py39hf3d152e_2",
+        "name": "conda",
+        "platform": "linux-64",
+        "version": "22.9.0"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 8,
+        "build_string": "py39h247a7eb_8_cpu",
+        "channel": "conda-forge",
+        "dist_name": "arrow-cpp-5.0.0-py39h247a7eb_8_cpu",
+        "name": "arrow-cpp",
+        "platform": "linux-64",
+        "version": "5.0.0"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 2,
+        "build_string": "2",
+        "channel": "conda-forge",
+        "dist_name": "parquet-cpp-1.5.1-2",
+        "name": "parquet-cpp",
+        "platform": "noarch",
+        "version": "1.5.1"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 8,
+        "build_string": "py39h3ebc44c_8_cpu",
+        "channel": "conda-forge",
+        "dist_name": "pyarrow-5.0.0-py39h3ebc44c_8_cpu",
+        "name": "pyarrow",
+        "platform": "linux-64",
+        "version": "5.0.0"
+      },
+      {
+        "base_url": "https://conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "pyh44b312d_0",
+        "channel": "conda-forge",
+        "dist_name": "pyspark-3.1.1-pyh44b312d_0",
+        "name": "pyspark",
+        "platform": "noarch",
+        "version": "3.1.1"
+      }
+    ],
+    "PREFIX": "/opt/anaconda/anaconda3",
+    "UNLINK": [
+      {
+        "base_url": "https://repo.anaconda.com/pkgs/main",
+        "build_number": 0,
+        "build_string": "py39h06a4308_0",
+        "channel": "pkgs/main",
+        "dist_name": "conda-22.9.0-py39h06a4308_0",
+        "name": "conda",
+        "platform": "linux-64",
+        "version": "22.9.0"
+      }
+    ]
+  },
+  "dry_run": true,
+  "prefix": "/opt/anaconda/anaconda3",
+  "success": true
+}
