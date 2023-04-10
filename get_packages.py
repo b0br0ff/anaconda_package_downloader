@@ -21,6 +21,9 @@ SEP = '/'
 
 
 def prepare_dirs(subpath1, subpath2):
+    if os.path.exists(DOWNLOAD_FOLDER) == False:
+        os.mkdir(DOWNLOAD_FOLDER)
+
     if os.path.exists(subpath1) == False:
         os.mkdir(subpath1)
 
@@ -34,10 +37,10 @@ def download_package(download_package_path, out_file, pkg_name, url1, url2=''):
     response = requests.get(url1, allow_redirects=True)
     if response.status_code == requests.codes.ok:
         print('URL1 = ' +  url1)
-        out_file.write('#' + url1 + '\n')
-        out_file.write('conda install ' + pkg_name + 'tar.bz2' + '\n')
+        out_file.write('#' + url1 + os.linesep)
+        out_file.write('conda install --offline ' + pkg_name + '.tar.bz2' + os.linesep)
 
-        with open(download_package_path + SEP + pkg_name + 'tar.bz2', 'wb') as dlfile:
+        with open(download_package_path + SEP + pkg_name + '.tar.bz2', 'wb') as dlfile:
             dlfile.write(response.content)
             return True
 
@@ -45,15 +48,15 @@ def download_package(download_package_path, out_file, pkg_name, url1, url2=''):
         response = requests.get(url2, allow_redirects=True)
         if response.status_code == requests.codes.ok:
             print('URL2 = ' +  url2)
-            out_file.write('#' + url2 + '\n')
-            out_file.write('conda install ' + pkg_name + '.conda' + '\n')
+            out_file.write('#' + url2 + os.linesep)
+            out_file.write('conda install --offline ' + pkg_name + '.conda' + os.linesep)
 
             with open(download_package_path + SEP + pkg_name + '.conda', 'wb') as dlfile:
                 dlfile.write(response.content)
                 return True
             
     print('Falied to download package {}'.format(pkg_name))
-    out_file.write('Falied to download package {}'.format(pkg_name) + '\n')
+    out_file.write('Falied to download package {}'.format(pkg_name) + os.linesep)
     return False
 
 
