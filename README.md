@@ -1,7 +1,7 @@
 # Why it is needed for?
 Sometime you need to setup Anaconda3 environment on a server that does not have Internet connection or you cannot do download-only due to the error below. In this case you need to use this script.
 
-....
+```
 Downloading and Extracting Packages
 CondaExitZero: Package caches prepared. UnlinkLinkTransaction cancelled with --download-only option.
 ```
@@ -46,4 +46,8 @@ python get_packages.py 3.9.13 pyspark pyspark_pkgs.json
 ls -al pkgs/3.9.13/pyspark
 ```
 
+### Installation
+```
+
+```
 
