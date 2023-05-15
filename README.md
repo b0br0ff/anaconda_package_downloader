@@ -23,6 +23,7 @@ cd anaconda_package_downloader
 ## Detailed steps
 ### Do dry run for a specific package, for instance pyspark
 ```
+cd /opt/anaconda/anaconda_package_downloader
 conda install --dry-run --channel conda-forge pyspark=3.1.1 --json > pyspark_pkgs.json
 conda install --dry-run --channel conda-forge jupyterhub --json > jupyterhub_pkgs.json
 conda install --dry-run --channel conda-forge sparkmagic --json > sparkmagic_pkgs.json
