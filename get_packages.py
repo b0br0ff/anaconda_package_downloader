@@ -14,7 +14,7 @@ __status__ = 'Production'
 DRYRUN_FILE = ''
 DOWNLOAD_FOLDER = 'pkgs'
 ANACONDA_PYTHON_VERSION = '3.9.13'
-PACKAGE_NAME = 'pyspark'
+PACKAGE_NAME = ''
 DOWNLOAD_FILE = PACKAGE_NAME +'-install.bash'
 SEP = '/'
 
