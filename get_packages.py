@@ -11,7 +11,7 @@ __status__ = 'Production'
 
 
 #DRYRUN_FILE = 'packages.json'
-DRYRUN_FILE = 'pyspark_pkgs.json'
+DRYRUN_FILE = ''
 DOWNLOAD_FOLDER = 'pkgs'
 ANACONDA_PYTHON_VERSION = '3.9.13'
 PACKAGE_NAME = 'pyspark'
